@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@appshack/react-native-eslint@workspace:.":
+"@app-shack/react-native-eslint@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@appshack/react-native-eslint@workspace:."
+  resolution: "@app-shack/react-native-eslint@workspace:."
   dependencies:
     "@eslint/compat": "npm:1.2.9"
     "@stylistic/eslint-plugin": "npm:4.2.0"
