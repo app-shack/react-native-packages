@@ -1,24 +1,6 @@
 {
-  "name": "@app-shack/react-native-eslint",
-  "version": "0.0.2",
-  "main": "eslint.config.mjs",
-  "repository": "https://github.com/app-shack/react-native-eslint.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "scripts": {
-    "publish": "yarn npm publish"
-  },
-  "dependencies": {
-    "@eslint/compat": "1.2.9",
-    "@stylistic/eslint-plugin": "4.2.0",
-    "eslint": "9.26.0",
-    "eslint-config-expo": "9.2.0",
-    "eslint-plugin-jest": "28.11.0",
-    "eslint-plugin-promise": "7.2.1",
-    "eslint-plugin-react-native": "5.0.0",
-    "typescript": "5.8.3",
-    "typescript-eslint": "8.32.0"
-  },
-  "packageManager": "yarn@4.9.1"
+    "name": "@app-shack/react-native-packages",
+    "workspaces": [
+        "packages/*"
+    ]
 }
