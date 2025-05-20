@@ -1,13 +1,12 @@
 # react-native-packages
-To be able to deploy you need to update your profile with a NODE_AUTH_TOKEN
-You need to add a NODE_AUTH_TOKEN to your profile.
+To be able to deploy you need to update your profile with a NPM_AUTH_TOKEN
 ```sh
-echo 'export NPM_AUTH_TOKEN=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' >> ~/.zshrc
+echo 'export NPM_AUTH_TOKEN=<YOUR_TOKEN>' >> ~/.zshrc
 source ~/.zshrc
 
 or
 
-echo 'export NPM_AUTH_TOKEN=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' >> ~/.bashrc
+echo 'export NPM_AUTH_TOKEN=<YOUR_TOKEN>' >> ~/.bashrc
 source ~/.bashrc
 
 ```
