@@ -158,7 +158,7 @@ export default [
       'no-prototype-builtins': 0,
       'no-case-declarations': 1,
       'no-var': 'warn',
-      'curly': [1, 'multi'],
+      'curly': [1, 'all'],
       'sort-keys': [0, 'asc', { caseSensitive: false }],
       'sort-imports': 0,
       'no-console': 2,
