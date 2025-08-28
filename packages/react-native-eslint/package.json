@@ -1,10 +1,38 @@
 {
-  "name": "@app-shack/react-native-eslint",
+  "name": "@martinagnalv/react-native-eslint",
   "version": "0.0.3",
+  "description": "A comprehensive ESLint configuration for React Native projects with TypeScript support",
   "main": "eslint.config.mjs",
-  "repository": "https://github.com/app-shack/react-native-eslint.git",
+  "type": "module",
+  "author": "App Shack",
+  "files": [
+    "eslint.config.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "react-native",
+    "typescript",
+    "linting",
+    "config",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/app-shack/react-native-eslint#readme",
+  "bugs": {
+    "url": "https://github.com/app-shack/react-native-eslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/app-shack/react-native-eslint.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "publish": "yarn npm publish"
